@@ -76,8 +76,6 @@ Along the way, this project surfaced a documented Salesforce platform limitation
 ## Following Along
 This build is being documented in a LinkedIn series as it progresses — each phase gets its own case study post covering not just what was built, but the design decisions and trade-offs behind it.
 
-This build is being documented in a LinkedIn series as it progresses — each phase gets its own case study post covering not just what was built, but the design decisions and trade-offs behind it.
-
 ---
 
 *Built by Manjari Deshpande — Sr. Salesforce Developer & Administrator.*
