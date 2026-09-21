@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Organization_Type__c</fullName>
+    <label>Organization Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Corporate_Donor</fullName>
+                <default>false</default>
+                <label>Corporate_Donor</label>
+            </value>
+            <value>
+                <fullName>Government_Agency</fullName>
+                <default>false</default>
+                <label>Government_Agency</label>
+            </value>
+            <value>
+                <fullName>Individual_Major_Donor</fullName>
+                <default>false</default>
+                <label>Individual_Major_Donor</label>
+            </value>
+            <value>
+                <fullName>Nonprofit</fullName>
+                <default>false</default>
+                <label>Nonprofit</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

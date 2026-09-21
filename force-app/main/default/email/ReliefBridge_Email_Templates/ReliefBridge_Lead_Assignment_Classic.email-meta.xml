@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Informs that lead has been assigned to queue</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>ReliefBridge_Classic_Letterhead</letterhead>
+    <name>ReliefBridge Lead Assignment Classic</name>
+    <style>freeForm</style>
+    <subject>{!Lead.Company} - {!Lead.Name} : A new lead has been assigned</subject>
+    <textOnly>Hi {!Lead.OwnerFirstName}, A new lead has been assigned to you.
+
+Here are the details:
+Lead Name: {!Lead.Name}
+Organization Type: {!Lead.Organization_Type__c}
+Area of Interest: {!Lead.Area_of_Interest__c}
+Estimated Contribution Range: {!Lead.Estimated_Contribution_Range__c}
+
+Please review and follow up promptly.</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>
