@@ -1,0 +1,11 @@
+# Salesforce DX temporary files
+.sfdx/
+.sf/
+.localDevChain/
+
+# Log files
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
