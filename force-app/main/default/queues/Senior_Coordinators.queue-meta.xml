@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>high-value leads - Government Agency OR $100K+</description>
+    <doesIncludeBosses>false</doesIncludeBosses>
+    <doesSendEmailToMembers>true</doesSendEmailToMembers>
+    <email>senior_coordinators@mailinator.com</email>
+    <name>Senior_Coordinators</name>
+    <queueMembers>
+        <users>
+            <user>manjari.deshpande01.ff3127d6f697@agentforce.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Lead</sobjectType>
+    </queueSobject>
+</Queue>
